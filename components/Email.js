@@ -46,7 +46,7 @@ const Email = ({ setDisplayEmail }) => {
         initialValues={{ message: "", name: "", email: "" }}
         // validationSchema={EmailSchema}
         onSubmit={(values, { setSubmitting }) => {
-          fetch("/api/functions/send-contact-email", {
+          fetch("/.netlify/functions/send-contact-email", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
