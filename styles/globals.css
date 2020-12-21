@@ -1,0 +1,35 @@
+::selection {
+  color: green;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+}
+
+body {
+  color: #000000;
+  font-family: "Arial", monospace;
+  font-size: 0.95rem;
+  min-width: 20rem;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", monospace;
+  height: 100%;
+  line-height: 1.5;
+  width: 100%;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 0.9rem;
+  }
+}
