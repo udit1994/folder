@@ -9,7 +9,7 @@ const StyledParticles = styled(Particles)`
   z-index: -1;
 `;
 
-export default () => {
+const Canvas = () => {
   return (
     <StyledParticles
       params={{
@@ -52,3 +52,5 @@ export default () => {
     />
   );
 };
+
+export default Canvas;

@@ -12,7 +12,7 @@ const Wrapper = styled.header`
   z-index: 2;
 `;
 
-export default ({ setDisplayNav, showNav }) => {
+const Header = ({ setDisplayNav, showNav }) => {
   return (
     <Wrapper>
       <section>
@@ -28,3 +28,5 @@ export default ({ setDisplayNav, showNav }) => {
     </Wrapper>
   );
 };
+
+export default Header;

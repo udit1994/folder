@@ -29,7 +29,7 @@ const Underline = styled.u`
   cursor: pointer;
 `;
 
-export default () => {
+const Index = () => {
   const [showEmail, setShowEmail] = useState(false);
 
   const setDisplayEmail = () => {
@@ -57,3 +57,5 @@ export default () => {
     </Wrapper>
   );
 };
+
+export default Index;
